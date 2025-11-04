@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: darkseagreen;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+input, textarea {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+ 	background-color: #f0f0f0;
+}
+
+input[type="date"] {
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+ 	background-color: #f0f0f0;
+}
+
+input[type="radio"] {
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+ 	background-color: #f0f0f0;
+}
+
+select {
+  width: 200px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+ 	background-color: #f0f0f0;
+ 	
+}
+
+button:hover {
+  background-color: #4CAF50; /* Darker background color on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #aaa;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.scroll-table {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+a {
+	padding: 10px; 
+	font-weight: bold; 
+	color: black; 
+	border-color: red;
+}
+
+ .required-label::after {
+    content: " *"; /* Adds an asterisk after the label */
+    color: red;    /* Sets the color of the asterisk to red */
+  }
+ 
+.input-btn {
+	    text-decoration: none;
+	    padding: 12px 30px;
+	    background-color: #4CAF50 !important;
+	    color: white !important;
+	    font-size: 18px;
+	    font-weight: 600;
+	    border: none;
+	    border-radius: 4px;
+	    margin: 10px;
+	    cursor: pointer;
+	    display: inline-block;
+	    transition: background-color 0.3s, transform 0.3s;
+	}
+	
+	.input-btn:hover {
+	    background-color: #333 !important;
+	    transform: scale(1.1);
+	}
+
+ .link-btn{
+	 text-decoration: none; 
+	 padding: 5px 20px; 
+	 background-color: #4CAF50; 
+	 color: white; 
+	 font-size: 18px; 
+	 font-weight: 600; 
+	 border-radius: 4px; 
+	 margin: 10px; 
+	 display: inline-block; 
+	 transition: background-color 0.3s, transform 0.3s;
+ }
+ 
+ .link-btn:hover {
+    background-color: #4CAF50 !important;
+    transform: scale(1.1);
+}
